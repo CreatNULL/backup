@@ -85,7 +85,7 @@ sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin
 ### 开发
 - java 环境管理切换工具, https://github.com/CreatNULL/backup/releases/download/1.0/JavaEnvSwitcher.dist.zip， 来源： https://bbs.huaweicloud.com/blogs/392288
 - 通过鼠标定位查看窗口PID, https://github.com/CreatNULL/backup/releases/download/1.0/Locate.the.window.PID.with.the.mouse.7z, 忘记哪下的了，应该是来源：https://blog.csdn.net/weixin_46625757/article/details/122522741
-- 一个简易的FTP服务器、Syslog服务器搭建，300kb -https://github.com/CreatNULL/backup/releases/download/1.0/3CDaemon.FTP.server.Syslog.server.-.very.small.300kb.7z
+- 一个简易的FTP服务器、Syslog服务器搭建，300kb -https://github.com/CreatNULL/backup/releases/download/1.0/3CDaemon.FTP.server.Syslog.server.-.very.small.300kb.7z，来源： https://www.updatestar.com/directdownload/3cdaemon/2005987
 
 
 ### 其他
