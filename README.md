@@ -84,6 +84,8 @@ sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin
 
 ### 开发
 - java 环境管理切换工具, https://github.com/CreatNULL/backup/releases/download/1.0/JavaEnvSwitcher.dist.zip， 来源： https://bbs.huaweicloud.com/blogs/392288
+- 通过鼠标定位查看窗口PID, https://github.com/CreatNULL/backup/releases/download/1.0/Locate.the.window.PID.with.the.mouse.7z, 忘记哪下的了，应该是来源：https://blog.csdn.net/weixin_46625757/article/details/122522741
+
 
 ### 其他
 - make https://github.com/CreatNULL/backup/releases/download/1.0/make.exe
