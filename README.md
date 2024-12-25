@@ -1,13 +1,15 @@
 ## 一些网上找到的工具，备份一下
 
 ### 读取
-- Excel 快速查看预览 https://github.com/CreatNULL/backup/releases/download/1.0/Excel.7.1.exe
+- Word 和 Excel 读取 https://github.com/CreatNULL/backup/releases/download/1.0/WORD.EXCEL.rar
+- Excel 快速查看预览（适合数据量很少） https://github.com/CreatNULL/backup/releases/download/1.0/Excel.7.1.exe
+- PPT查询 https://github.com/CreatNULL/backup/releases/download/1.0/SmartPPT.-1.11.0.7-.rar
 - 可将终端转义成 HTML 代码 （好像没用） https://github.com/CreatNULL/backup/releases/download/1.0/aha.exe
 - cat https://github.com/CreatNULL/backup/releases/download/1.0/cat.exe
 - less https://github.com/CreatNULL/backup/releases/download/1.0/less.exe
 - tail https://github.com/CreatNULL/backup/releases/download/1.0/tail.exe
 - tee https://github.com/CreatNULL/backup/releases/download/1.0/tee.exe
-
+  
 ### 扫描
 - arp 扫描 https://github.com/CreatNULL/backup/releases/download/1.0/arp-scan.exe
 - 端口扫描 https://github.com/CreatNULL/backup/releases/download/1.0/masscan.exe
