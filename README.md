@@ -56,6 +56,7 @@
 ### 连接
 - mysql命令行连接   https://github.com/CreatNULL/backup/releases/download/1.0/mysql.zip
 - redis https://github.com/CreatNULL/backup/releases/download/1.0/redis-cli.exe
+- 数据库连接工具（MySQL、SQLserver、PosterSQL、Firebird 等，https://github.com/CreatNULL/backup/releases/download/1.0/HeidiSQL_12.5_64_Portable-.-.SQL.Server-My.SQL-PostgreSQL-SQLite-Firebird-Interbase.zip
 - wesocket测试 https://github.com/CreatNULL/backup/releases/download/1.0/websocat.exe
 ```
 sshpass 是 Linux 上的一个免输入密码通过 ssh 登录的方案，可以通过在命令行中指定密码，无需交互的方式完成一些自动化的动作
@@ -80,6 +81,9 @@ sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin
 - 网络测速度 https://github.com/CreatNULL/backup/releases/download/1.0/speedtest.exe
 - 通过web共享本地终端 https://github.com/CreatNULL/backup/releases/download/1.0/ttyd.exe
 - 下载 https://github.com/CreatNULL/backup/releases/download/1.0/wget.exe
+
+### 开发
+- java 环境管理切换工具, https://github.com/CreatNULL/backup/releases/download/1.0/JavaEnvSwitcher.dist.zip， 来源： https://bbs.huaweicloud.com/blogs/392288
 
 ### 其他
 - make https://github.com/CreatNULL/backup/releases/download/1.0/make.exe
