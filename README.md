@@ -57,6 +57,7 @@
 - mysql命令行连接   https://github.com/CreatNULL/backup/releases/download/1.0/mysql.zip
 - redis https://github.com/CreatNULL/backup/releases/download/1.0/redis-cli.exe
 - wesocket测试 https://github.com/CreatNULL/backup/releases/download/1.0/websocat.exe
+- sshpass java版本，sshpass 可以指定账号密码 https://github.com/CreatNULL/backup/releases/download/1.0/sshpass.jar 原项目地址 ： https://github.com/luckyxp/sshpass
 
 ### 网络
 - 抓包 https://github.com/CreatNULL/backup/releases/download/1.0/tcpdump.exe
