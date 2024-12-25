@@ -70,6 +70,7 @@ java -jar sshpass.jar -h %remote_host% -u %remote_host_user% -p %remote_host_pas
 ```
 - sshpass windows版本, https://github.com/CreatNULL/backup/releases/download/1.0/sshpass.exe 原项目地址：https://github.com/xhcoding/sshpass-win32
 ```
+刚开始，先ssh连接一下然后保存密钥，下次就可以正常使用了
 sshpass -p 12345 ssh xhcoding@192.168.139.128 ls
 sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin/ssh.exe' README.md xhcoding@192.168.139.128:/home/xhcoding/
 ```
