@@ -1,7 +1,7 @@
 ## 一些网上找到的工具，备份一下
 
 ### 读取
-- Word 和 Excel 读取 https://github.com/CreatNULL/backup/releases/download/1.0/WORD.EXCEL.rar
+- Word（word没事） 和 Excel（excel只支持2003以下版本，高版本不支持。） 读取 https://github.com/CreatNULL/backup/releases/download/1.0/WORD.EXCEL.rar
 - Excel 快速查看预览（适合数据量很少） https://github.com/CreatNULL/backup/releases/download/1.0/Excel.7.1.exe
 - PPT查询 https://github.com/CreatNULL/backup/releases/download/1.0/SmartPPT.-1.11.0.7-.rar
 - 可将终端转义成 HTML 代码 （好像没用） https://github.com/CreatNULL/backup/releases/download/1.0/aha.exe
