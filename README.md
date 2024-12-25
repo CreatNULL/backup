@@ -81,6 +81,9 @@ sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin
 - 网络测速度 https://github.com/CreatNULL/backup/releases/download/1.0/speedtest.exe
 - 通过web共享本地终端 https://github.com/CreatNULL/backup/releases/download/1.0/ttyd.exe，原项目地址：https://github.com/tsl0922/ttyd
 - 下载 https://github.com/CreatNULL/backup/releases/download/1.0/wget.exe
+- IP地址修改器，https://github.com/CreatNULL/backup/releases/download/1.0/IP.Address.ModifierV5.0.5.8.exe，来源:https://www.ahhhhfs.com/47888/
+- 防火墙修改器，https://github.com/CreatNULL/backup/releases/download/1.0/Fab_x64_windows.exe，来源：https://www.52pojie.cn/thread-1757548-1-1.html
+
 
 ### 开发
 - java 环境管理切换工具, https://github.com/CreatNULL/backup/releases/download/1.0/JavaEnvSwitcher.dist.zip， 来源： https://bbs.huaweicloud.com/blogs/392288
