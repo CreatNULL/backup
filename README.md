@@ -95,3 +95,4 @@ sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin
 ### 其他
 - make https://github.com/CreatNULL/backup/releases/download/1.0/make.exe
 - whois查询 https://github.com/CreatNULL/backup/releases/download/1.0/whois.exe
+- 右键菜单管理, https://github.com/CreatNULL/backup/releases/download/1.0/ContextMenuManager.exe, 原项目地址：https://github.com/BluePointLilac/ContextMenuManager
