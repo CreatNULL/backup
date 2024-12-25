@@ -57,7 +57,22 @@
 - mysql命令行连接   https://github.com/CreatNULL/backup/releases/download/1.0/mysql.zip
 - redis https://github.com/CreatNULL/backup/releases/download/1.0/redis-cli.exe
 - wesocket测试 https://github.com/CreatNULL/backup/releases/download/1.0/websocat.exe
+```
+sshpass 是 Linux 上的一个免输入密码通过 ssh 登录的方案，可以通过在命令行中指定密码，无需交互的方式完成一些自动化的动作
+```
 - sshpass java版本，sshpass 可以指定账号密码 https://github.com/CreatNULL/backup/releases/download/1.0/sshpass.jar 原项目地址 ： https://github.com/luckyxp/sshpass
+```
+ssh -c
+java -jar sshpass.jar -h %remote_host% -u %remote_host_user% -p %remote_host_passwd% -c "ls -l"
+
+scp
+java -jar sshpass.jar -h %remote_host% -u %remote_host_user% -p %remote_host_passwd% --scp local_file remote_file
+```
+- sshpass windows版本, https://github.com/CreatNULL/backup/releases/download/1.0/sshpass.exe 原项目地址：https://github.com/xhcoding/sshpass-win32
+```
+sshpass -p 12345 ssh xhcoding@192.168.139.128 ls
+sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin/ssh.exe' README.md xhcoding@192.168.139.128:/home/xhcoding/
+```
 
 ### 网络
 - 抓包 https://github.com/CreatNULL/backup/releases/download/1.0/tcpdump.exe
