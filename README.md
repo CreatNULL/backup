@@ -52,7 +52,7 @@
   
 ### 磁盘
 - df https://github.com/CreatNULL/backup/releases/download/1.0/df.exe
-- du https://github.com/CreatNULL/backup/releases/download/1.0/du.exe
+- du https://github.com/CreatNULL/backup/releases/download/1.0/du.exe 原项目地址: https://github.com/gungwald/du
 
 ### 连接
 - mysql命令行连接   https://github.com/CreatNULL/backup/releases/download/1.0/mysql.zip
