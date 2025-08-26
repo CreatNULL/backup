@@ -21,6 +21,7 @@
 - md5 https://github.com/CreatNULL/backup/releases/download/1.0/md5sum.exe
 - sha1sum https://github.com/CreatNULL/backup/releases/download/1.0/sha1sum.exe
 - sha3sum https://github.com/CreatNULL/backup/releases/download/1.0/sha3sum.exe
+- https://github.com/cwansart/sha256sum.exe/
 - 给定的标准输入或者文件做一次十六进制的输出，它也可以将十六进制输出转换为原来的二进制格式 https://github.com/CreatNULL/backup/releases/download/1.0/xxd.exe
 - 十六进制查看、编辑 https://github.com/CreatNULL/backup/releases/download/1.0/hexed.exe，原项目地址：https://github.com/samizzo/hexed
 - 十六进制查看 https://github.com/CreatNULL/backup/releases/download/1.0/hexyl.exe，原项目地址：https://github.com/sharkdp/hexyl
