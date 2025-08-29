@@ -130,6 +130,8 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
 -rwxrwxrwx   1 user     group       68096 Apr 14  2003 zip.exe
 ```
 
+find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上上级 ../.. 只能这样不然报错 
+
 ## 下面的一些Linux可能和上面的重复我懒得去重了
 
 ### 读取
