@@ -1,20 +1,149 @@
 ## 一些网上找到的工具，备份一下（有些忘记哪里弄来的）
 
+
+### 懒得分类了 (Linux上的一些命令)
+https://sourceforge.net/projects/unxutils/ 下载zip后解压: 进入: \UnxUtils\usr\local\wbin
+```
+total 5874
+drwxrwxrwx   1 user     group           0 Aug 30 06:06 .
+drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
+-rwxrwxrwx   1 user     group      147456 Apr 14  2003 agrep.exe
+-rwxrwxrwx   1 user     group        5632 Nov 11  1999 ansi2knr.exe
+-rwxrwxrwx   1 user     group        7680 Nov 11  1999 basename.exe
+-rwxrwxrwx   1 user     group       52736 Nov 11  1999 bc.exe
+-rwxrwxrwx   1 user     group       82432 Nov 11  1999 bison.exe
+-rwxrwxrwx   1 user     group       75776 Apr 14  2003 bunzip2.exe
+-rwxrwxrwx   1 user     group       77312 Apr 14  2003 bzip2.exe
+-rwxrwxrwx   1 user     group        8192 Apr 14  2003 bzip2recover.exe
+-rwxrwxrwx   1 user     group       22016 Nov 11  1999 cat.exe
+-rwxrwxrwx   1 user     group       24064 Nov 11  1999 chgrp.exe
+-rwxrwxrwx   1 user     group       22528 Nov 11  1999 chmod.exe
+-rwxrwxrwx   1 user     group       23040 Nov 11  1999 chown.exe
+-rwxrwxrwx   1 user     group       19968 Nov 11  1999 cksum.exe
+-rwxrwxrwx   1 user     group       11264 Nov 11  2001 cmp.exe
+-rwxrwxrwx   1 user     group       20992 Nov 11  1999 comm.exe
+-rwxrwxrwx   1 user     group       25597 Nov 11  1999 compress.exe
+-rwxrwxrwx   1 user     group       73728 Oct 10  2000 cp.exe
+-rwxrwxrwx   1 user     group       65024 Nov 11  1999 csplit.exe
+-rwxrwxrwx   1 user     group       24064 Nov 11  1999 cut.exe
+-rwxrwxrwx   1 user     group       39424 Oct 10  2000 date.exe
+-rwxrwxrwx   1 user     group       25600 Nov 11  1999 dc.exe
+-rwxrwxrwx   1 user     group       40960 Apr 14  2003 dd.exe
+-rwxrwxrwx   1 user     group       26112 Nov 11  1999 df.exe
+-rwxrwxrwx   1 user     group       68096 Nov 11  2001 diff.exe
+-rwxrwxrwx   1 user     group       17920 Nov 11  2001 diff3.exe
+-rwxrwxrwx   1 user     group       28160 Nov 11  1999 dircolors.exe
+-rwxrwxrwx   1 user     group       16896 Nov 11  2001 dirname.exe
+-rwxrwxrwx   1 user     group       26112 Nov 11  1999 du.exe
+-rwxrwxrwx   1 user     group        7680 Nov 11  1999 echo.exe
+-rwxrwxrwx   1 user     group       80412 Apr 14  2003 egrep.exe
+-rwxrwxrwx   1 user     group        8192 Oct 10  2000 env.exe
+-rwxrwxrwx   1 user     group       20992 Nov 11  1999 expand.exe
+-rwxrwxrwx   1 user     group       13824 Nov 11  1999 expr.exe
+-rwxrwxrwx   1 user     group       18432 Nov 11  1999 factor.exe
+-rwxrwxrwx   1 user     group       80412 Apr 14  2003 fgrep.exe
+-rwxrwxrwx   1 user     group       65536 Nov 11  2001 find.exe
+-rwxrwxrwx   1 user     group      146432 Nov 11  1999 flex.exe
+-rwxrwxrwx   1 user     group       24064 Nov 11  1999 fmt.exe
+-rwxrwxrwx   1 user     group       21504 Nov 11  1999 fold.exe
+-rwxrwxrwx   1 user     group        6144 Nov 11  1999 fsplit.exe
+-rwxrwxrwx   1 user     group      195584 Apr 14  2003 gawk.exe
+-rwxrwxrwx   1 user     group        8192 Nov 11  2001 gclip.exe
+-rwxrwxrwx   1 user     group        4608 Nov 11  2001 gplay.exe
+-rwxrwxrwx   1 user     group       80412 Apr 14  2003 grep.exe
+-rwxrwxrwx   1 user     group       15360 Nov 11  1999 gsar.exe
+-rwxrwxrwx   1 user     group       49152 Nov 11  1999 gunzip.exe
+-rwxrwxrwx   1 user     group       49152 Nov 11  1999 gzip.exe
+-rwxrwxrwx   1 user     group       24064 Nov 11  1999 head.exe
+-rwxrwxrwx   1 user     group       10240 Nov 11  1999 id.exe
+-rwxrwxrwx   1 user     group       58880 Apr 14  2003 indent.exe
+-rwxrwxrwx   1 user     group       40960 Nov 11  2001 install.exe
+-rwxrwxrwx   1 user     group       27136 Nov 11  1999 join.exe
+-rwxrwxrwx   1 user     group       49152 Oct 10  2000 jwhois.exe
+-rwxrwxrwx   1 user     group       77312 Nov 11  1999 less.exe
+-rwxrwxrwx   1 user     group        8192 Apr 14  2003 lesskey.exe
+-rw-rw-rw-   1 user     group        4014 Apr 14  2003 libfl.a
+-rw-rw-rw-   1 user     group        1174 Apr 14  2003 libfl.lib
+-rwxrwxrwx   1 user     group       69632 Apr 14  2003 ln.exe
+-rwxrwxrwx   1 user     group        7680 Nov 11  1999 logname.exe
+-rwxrwxrwx   1 user     group       57856 Nov 11  1999 ls.exe
+-rwxrwxrwx   1 user     group       83456 Nov 11  1999 m4.exe
+-rwxrwxrwx   1 user     group      126976 Oct 10  2000 make.exe
+-rwxrwxrwx   1 user     group       32768 Apr 14  2003 makedepend.exe
+-rwxrwxrwx   1 user     group        6144 Nov 11  1999 makemsg.exe
+-rwxrwxrwx   1 user     group       38912 Nov 11  1999 man.exe
+-rwxrwxrwx   1 user     group       28160 Nov 11  1999 md5sum.exe
+-rwxrwxrwx   1 user     group       32768 Oct 10  2000 mkdir.exe
+-rwxrwxrwx   1 user     group       14336 Nov 11  1999 mkfifo.exe
+-rwxrwxrwx   1 user     group       21504 Nov 11  1999 mknod.exe
+-rwxrwxrwx   1 user     group       69632 Nov 11  2001 mv.exe
+-rwxrwxrwx   1 user     group       20480 Nov 11  1999 mvdir.exe
+-rwxrwxrwx   1 user     group       51712 Nov 11  1999 nl.exe
+-rwxrwxrwx   1 user     group       35328 Nov 11  1999 od.exe
+-rwxrwxrwx   1 user     group       20992 Nov 11  1999 paste.exe
+-rwxrwxrwx   1 user     group       59904 Nov 11  1999 patch.exe
+-rwxrwxrwx   1 user     group       10752 Nov 11  1999 pathchk.exe
+-rwxrwxrwx   1 user     group        8192 Nov 11  2001 pclip.exe
+-rwxrwxrwx   1 user     group       37376 Nov 11  1999 pr.exe
+-rwxrwxrwx   1 user     group        7680 Nov 11  1999 printenv.exe
+-rwxrwxrwx   1 user     group       13312 Nov 11  1999 printf.exe
+-rwxrwxrwx   1 user     group        2560 Nov 11  1999 pwd.exe
+-rwxrwxrwx   1 user     group     1083392 Nov 11  2001 recode.exe
+-rwxrwxrwx   1 user     group       65536 Oct 10  2000 rm.exe
+-rwxrwxrwx   1 user     group      137216 Nov 11  1999 rman.exe
+-rwxrwxrwx   1 user     group       28672 Oct 10  2000 rmdir.exe
+-rwxrwxrwx   1 user     group       19968 Nov 11  2001 sdiff.exe
+-rwxrwxrwx   1 user     group       49152 Apr 14  2003 sed.exe
+-rwxrwxrwx   1 user     group       18432 Nov 11  1999 seq.exe
+-rwxrwxrwx   1 user     group       35328 Nov 11  1999 shar.exe
+-rwxrwxrwx   1 user     group       16384 Nov 11  1999 sleep.exe
+-rwxrwxrwx   1 user     group       38400 Nov 11  1999 sort.exe
+-rwxrwxrwx   1 user     group       23552 Nov 11  1999 split.exe
+-rwxrwxrwx   1 user     group       12800 Nov 11  2001 stego.exe
+-rwxrwxrwx   1 user     group       13312 Nov 11  1999 su.exe
+-rwxrwxrwx   1 user     group       19456 Nov 11  1999 sum.exe
+-rwxrwxrwx   1 user     group       19456 Nov 11  1999 sync.exe
+-rwxrwxrwx   1 user     group       49664 Nov 11  1999 tac.exe
+-rwxrwxrwx   1 user     group       35328 Nov 11  1999 tail.exe
+-rwxrwxrwx   1 user     group      114688 Nov 11  2001 tar.exe
+-rwxrwxrwx   1 user     group       16896 Nov 11  1999 tee.exe
+-rwxrwxrwx   1 user     group       17920 Nov 11  1999 test.exe
+-rwxrwxrwx   1 user     group       35840 Nov 11  1999 touch.exe
+-rwxrwxrwx   1 user     group       33280 Nov 11  1999 tr.exe
+-rwxrwxrwx   1 user     group        3584 Nov 11  1999 type.exe
+-rwxrwxrwx   1 user     group       16896 Nov 11  1999 uname.exe
+-rwxrwxrwx   1 user     group       20992 Nov 11  1999 unexpand.exe
+-rwxrwxrwx   1 user     group       23552 Nov 11  1999 uniq.exe
+-rwxrwxrwx   1 user     group      161792 Apr 14  2003 unrar.exe
+-rwxrwxrwx   1 user     group       11264 Nov 11  1999 unshar.exe
+-rwxrwxrwx   1 user     group      102400 Apr 14  2003 unzip.exe
+-rwxrwxrwx   1 user     group       10240 Nov 11  1999 uudecode.exe
+-rwxrwxrwx   1 user     group        9728 Nov 11  1999 uuencode.exe
+-rwxrwxrwx   1 user     group       29696 Nov 11  1999 wc.exe
+-rwxrwxrwx   1 user     group      252416 Apr 14  2003 wget.exe
+-rw-rw-rw-   1 user     group      131187 Apr 14  2003 wget.hlp
+-rwxrwxrwx   1 user     group       12288 Nov 11  1999 which.exe
+-rwxrwxrwx   1 user     group        7680 Nov 11  1999 whoami.exe
+-rwxrwxrwx   1 user     group       45124 Oct 10  2000 xargs.exe
+-rwxrwxrwx   1 user     group        7168 Nov 11  1999 yes.exe
+-rwxrwxrwx   1 user     group       49152 Apr 14  2003 zcat.exe
+-rwxrwxrwx   1 user     group       68096 Apr 14  2003 zip.exe
+```
+
+## 下面的一些Linux可能和上面的重复我懒得去重了
+
 ### 读取
 - Word  查看 和 Excel 2003以下版本查看，高版本不支持。 读取 https://github.com/CreatNULL/backup/releases/download/1.0/WORD.EXCEL.rar
 - Excel 查看 https://github.com/CreatNULL/backup/releases/download/1.0/BytescoutXLSViewer.zip
 - Excel 查看（适合数据量很少） https://github.com/CreatNULL/backup/releases/download/1.0/Excel.7.1.exe
 - Excel 查看 3.44MB安装包，需要安装 https://github.com/CreatNULL/backup/releases/download/1.0/freeexcelviewer.exe
 - PPT 查看 https://github.com/CreatNULL/backup/releases/download/1.0/SmartPPT.-1.11.0.7-.rar
-- 可将终端转义成 HTML 代码 （好像没用） https://github.com/CreatNULL/backup/releases/download/1.0/aha.exe
-- cat https://github.com/CreatNULL/backup/releases/download/1.0/cat.exe
-- less https://github.com/CreatNULL/backup/releases/download/1.0/less.exe
-- tail https://github.com/CreatNULL/backup/releases/download/1.0/tail.exe
-- tee https://github.com/CreatNULL/backup/releases/download/1.0/tee.exe
-  
+
+
+
 ### 扫描
-- arp 扫描 https://github.com/CreatNULL/backup/releases/download/1.0/arp-scan.exe
-- 端口扫描 https://github.com/CreatNULL/backup/releases/download/1.0/masscan.exe，原项目地址：https://github.com/robertdavidgraham/masscan
+- arp 扫描 https://github.com/QbsuranAlang/arp-scan-windows-
+- 端口扫描 https://github.com/robertdavidgraham/masscan
 
 ### 编码解码
 - base64编码解码 https://github.com/CreatNULL/backup/releases/download/1.0/base64.exe
@@ -27,12 +156,12 @@
 - 十六进制查看 https://github.com/CreatNULL/backup/releases/download/1.0/hexyl.exe，原项目地址：https://github.com/sharkdp/hexyl
 
 ### 压缩解压缩
-- bzip https://github.com/CreatNULL/backup/releases/download/1.0/bzip2.exe
+- bzip2 http://www.stahlworks.com/dev/index.php?tool=zipunzip 
 - 7z https://github.com/CreatNULL/backup/releases/download/1.0/7z.zip
 - gzip https://github.com/CreatNULL/backup/releases/download/1.0/gzip.exe
-- tar https://github.com/CreatNULL/backup/releases/download/1.0/tar.exe
+- tar https://sourceforge.net/projects/tar-win/ https://sourceforge.net/projects/unxutils/files/
 - unrar https://github.com/CreatNULL/backup/releases/download/1.0/unrar.exe
-- unzip https://github.com/CreatNULL/backup/releases/download/1.0/unzip.zip
+- unzip https://gnuwin32.sourceforge.net/packages/unzip.htm
 - xz https://github.com/CreatNULL/backup/releases/download/1.0/xz.exe  
 - zip https://github.com/CreatNULL/backup/releases/download/1.0/zip.exe
 
@@ -43,16 +172,25 @@
 - file 文件类型查看 https://github.com/CreatNULL/backup/releases/download/1.0/file.zip
 - awk https://github.com/CreatNULL/backup/releases/download/1.0/gawk.zip
 - grep https://github.com/CreatNULL/backup/releases/download/1.0/grep.zip
-- ls https://github.com/CreatNULL/backup/releases/download/1.0/ls.exe
+- ls https://u-tools.com/download_prod.asp?download_id=600&Agree=1
 - mv https://github.com/CreatNULL/backup/releases/download/1.0/mv.exe
 - rm https://github.com/CreatNULL/backup/releases/download/1.0/rm.exe
 - rsync https://github.com/CreatNULL/backup/releases/download/1.0/rsync-win.zip
 - sed https://github.com/CreatNULL/backup/releases/download/1.0/sed.zip
-- touch https://github.com/CreatNULL/backup/releases/download/1.0/touch.exe
+- touch https://sourceforge.net/projects/touchforwindows/
+- 可将终端转义成 HTML 代码 （好像没用） https://github.com/CreatNULL/backup/releases/download/1.0/aha.exe
+- cat https://github.com/TwiN/cat-for-windows
+- less https://github.com/CreatNULL/backup/releases/download/1.0/less.exe
+- tail https://github.com/CreatNULL/backup/releases/download/1.0/tail.exe
+- tee https://github.com/CreatNULL/backup/releases/download/1.0/tee.exe
+- nano https://github.com/okibcn/nano-for-windows/
+- vim https://www.vim.org
+- stat
+- tr
   
 ### 磁盘
 - df https://github.com/CreatNULL/backup/releases/download/1.0/df.exe
-- du https://github.com/CreatNULL/backup/releases/download/1.0/du.exe 原项目地址: https://github.com/gungwald/du
+- du https://github.com/gungwald/du
 
 ### 连接
 - mysql命令行连接   https://github.com/CreatNULL/backup/releases/download/1.0/mysql.zip
@@ -81,7 +219,7 @@ sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin
 - 抓包 https://github.com/CreatNULL/backup/releases/download/1.0/tcpdump.exe
 - 网络测速度 https://github.com/CreatNULL/backup/releases/download/1.0/speedtest.exe
 - 通过web共享本地终端 https://github.com/CreatNULL/backup/releases/download/1.0/ttyd.exe，原项目地址：https://github.com/tsl0922/ttyd
-- 下载 https://github.com/CreatNULL/backup/releases/download/1.0/wget.exe
+- 下载 https://eternallybored.org/misc/wget/
 - IP地址修改器，https://github.com/CreatNULL/backup/releases/download/1.0/IP.Address.ModifierV5.0.5.8.exe，来源:https://www.ahhhhfs.com/47888/
 - 防火墙修改器，https://github.com/CreatNULL/backup/releases/download/1.0/Fab_x64_windows.exe，来源：https://www.52pojie.cn/thread-1757548-1-1.html
 
@@ -94,6 +232,6 @@ sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin
 - 注册表值有效性查看工具, https://github.com/CreatNULL/backup/releases/download/1.0/RapidEE_setup.exe,来源：https://www.rapidee.com/en/download
 
 ### 其他
-- make https://github.com/CreatNULL/backup/releases/download/1.0/make.exe
+- make https://steve.fi/software/make/
 - whois查询 https://github.com/CreatNULL/backup/releases/download/1.0/whois.exe
 - 右键菜单管理, https://github.com/CreatNULL/backup/releases/download/1.0/ContextMenuManager.exe, 原项目地址：https://github.com/BluePointLilac/ContextMenuManager
