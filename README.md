@@ -233,10 +233,9 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
   - https://sourceforge.net/projects/unxutils/
 - touch
   - https://sourceforge.net/projects/unxutils/
-- aha
-  - https://github.com/CreatNULL/backup/releases/download/1.0/aha.exe
-  - 可将终端转义成 HTML 代码 （好像没用）
 - tee
+  - https://sourceforge.net/projects/unxutils/
+- wc
   - https://sourceforge.net/projects/unxutils/
 - nano
   - https://github.com/okibcn/nano-for-windows/
@@ -258,9 +257,6 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
 - find
   - https://sourceforge.net/projects/unxutils/
   - find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上上级 ../.. 只能这样不然报错
-- chmod
-  - https://sourceforge.net/projects/unxutils/
-  - 没啥用
 - cp
   - https://sourceforge.net/projects/unxutils/ 
 - exiftool
@@ -353,6 +349,12 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
 - seq
   - https://sourceforge.net/projects/unxutils/
   - 生成一系列的数字序列。它可以指定起始值、增量值和终止值，生成数字列表，或者与其他命令配合使用
+- aha
+  - https://github.com/CreatNULL/backup/releases/download/1.0/aha.exe
+  - 可将终端转义成 HTML 代码 （好像没用）
+- chmod
+  - https://sourceforge.net/projects/unxutils/
+  - 没啥用
 
 - ContextMenuManager (GUI)
   - https://github.com/BluePointLilac/ContextMenuManager
