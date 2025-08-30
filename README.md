@@ -1,7 +1,7 @@
 # 一些网上找到的工具，备份一下（有些忘记哪里弄来的）
 
 
-### 懒得分类了 (Linux上的一些命令，Windows版本的)
+### Linux上的一些命令，Windows版本的
 https://sourceforge.net/projects/unxutils/ 下载zip后解压: 进入: \UnxUtils\usr\local\wbin
 ```
 total 5874
@@ -133,9 +133,7 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
 
 
 ## 说明
-- 下面的一些Linux可能和上面的重复我懒得去重了
 - 写了自己的地址是我忘记哪里弄来的了
-
 
 ### 扫描
 - arp 扫描 https://github.com/QbsuranAlang/arp-scan-windows-
@@ -180,27 +178,51 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
   - https://gnuwin32.sourceforge.net/packages/unzip.htm
 - zipinfo
   - 下个 git 里面有，不过依赖他的dll
+  - 一个用于列出ZIP存档中文件的技术信息的命令。这些信息包括文件访问权限、加密状态、压缩类型、压缩程序的版本和操作系统或文件系统等。
 - xz
   - https://sourceforge.net/projects/xz-for-windows/ 
 - zip
   - https://gnuwin32.sourceforge.net/packages/zip.htm 
 - rar
   - 下个WinRAR有了
-
+- zcat
+  - https://sourceforge.net/projects/unxutils/files/
 ### 文件目录操作
-- chmod
-  - https://sourceforge.net/projects/unxutils/
-- cp
-  - https://sourceforge.net/projects/unxutils/ 
-- exiftool
-  - https://www.exiftool.org/
-  - 允许您在图像、音频和视频文件中读取和写入EXIF、GPS、IPTC、XMP、制造者标记等元数据信息
-- file
-  - https://gnuwin32.sourceforge.net/packages/file.htm
-  - 文件类型查看
-- awk
+- gawk
   - https://sourceforge.net/projects/unxutils/
   - windows 支持有限
+- cat
+  - https://github.com/TwiN/cat-for-windows
+- diff
+  - https://sourceforge.net/projects/unxutils/
+  - 对比两个文件的不同
+- diff3
+  - https://sourceforge.net/projects/unxutils/
+  - 对比三个文件的不同
+- join
+  - https://sourceforge.net/projects/unxutils/
+  - 用于将两个文件中，指定栏位内容相同的行连接起来。找出两个文件中，指定栏位内容相同的行，并加以合并，再输出到标准输出设备
+- paste
+  - https://sourceforge.net/projects/unxutils/
+  - 指令会把每个文件以列对列的方式，一列列地加以合并。
+- pr
+  - https://sourceforge.net/projects/unxutils/
+  - 用于将文本文件格式化为适合打印的工具。它可以对文本进行分页、添加页眉页脚、设置列宽等操作，方便打印和阅读。
+- sed
+  - https://sourceforge.net/projects/unxutils/
+  - Windows支持有限，没怎么成功除了 sed "" file.txt
+- uniq
+  - https://sourceforge.net/projects/unxutils/
+  - 用于删除或查找文本文件中重复行的工具。它通常与sort命令结合使用，因为uniq只能对排序后的文本行进行有效的去重。uniq命令不仅能够删除重复的行，还能够对重复的行进行计数，或者仅显示重复的行。
+- sort
+  - https://sourceforge.net/projects/unxutils/
+  - 于对文本文件的内容进行排序。它可以根据不同的参数对文件中的行进行排序，并将结果输出到标准输出或指定的文件中。
+- head
+  - https://sourceforge.net/projects/unxutils/
+- tail
+  - https://sourceforge.net/projects/unxutils/
+- less
+  - https://sourceforge.net/projects/unxutils/
 - grep
   - https://sourceforge.net/projects/unxutils/ 
 - ls
@@ -209,20 +231,11 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
   - https://sourceforge.net/projects/unxutils/
 - rm
   - https://sourceforge.net/projects/unxutils/
-- sed
-  - Windows支持有限，没用成功我
-  - https://sourceforge.net/projects/unxutils/
 - touch
   - https://sourceforge.net/projects/unxutils/
 - aha
   - https://github.com/CreatNULL/backup/releases/download/1.0/aha.exe
   - 可将终端转义成 HTML 代码 （好像没用）
-- cat
-  - https://github.com/TwiN/cat-for-windows
-- less
-  - https://sourceforge.net/projects/unxutils/
-- tail
-  - https://sourceforge.net/projects/unxutils/
 - tee
   - https://sourceforge.net/projects/unxutils/
 - nano
@@ -230,15 +243,32 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
   - 文本编辑器 
 - vim
   - https://www.vim.org
-  - 文本编辑器 
+  - 文本编辑器
+- cmp
+  - https://sourceforge.net/projects/unxutils/
+  - 比较两个文件的工具，它可以逐字节地比较文件内容，以确定它们是否完全相同。当两个文件完全一致时，cmp命令不会输出任何信息。如果文件存在差异，它会显示第一个不同之处的字节位置和行号 
+- kate (GUI)
+  - https://kate-editor.org/zh-cn/get-it/
 - stat
   - 下个 git，在里提取就好了（缺啥dll复制啥dll就可以独立使用了）
   - Linux系统中用于显示文件或文件系统状态的工具。它提供了比ls命令更详细的信息，包括文件大小、iNode节点、块数量、访问权限、访问时间、修改时间等
 - tr
   - https://sourceforge.net/projects/unxutils/
+  - 于转换、删除和压缩字符。它从标准输入读取数据，并将结果输出到标准输出。tr 命令可以执行诸如删除重复字符、将小写字母转换为大写字母以及基本的字符替换和删除等操作。
 - find
   - https://sourceforge.net/projects/unxutils/
-  - find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上上级 ../.. 只能这样不然报错 
+  - find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上上级 ../.. 只能这样不然报错
+- chmod
+  - https://sourceforge.net/projects/unxutils/
+  - 没啥用
+- cp
+  - https://sourceforge.net/projects/unxutils/ 
+- exiftool
+  - https://www.exiftool.org/
+  - 允许您在图像、音频和视频文件中读取和写入EXIF、GPS、IPTC、XMP、制造者标记等元数据信息
+- file
+  - https://gnuwin32.sourceforge.net/packages/file.htm
+  - 文件类型查看
   
 ### 磁盘
 - df
@@ -317,6 +347,13 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
   - 是一个简易的环境变量编辑器，可以查看注册表值是否有效的，例如路径不存在，他就标红的
 
 ### 其他
+- bc
+  - 一个计算器 
+  - https://sourceforge.net/projects/unxutils/
+- seq
+  - https://sourceforge.net/projects/unxutils/
+  - 生成一系列的数字序列。它可以指定起始值、增量值和终止值，生成数字列表，或者与其他命令配合使用
+
 - ContextMenuManager (GUI)
   - https://github.com/BluePointLilac/ContextMenuManager
   - 右键菜单管理
