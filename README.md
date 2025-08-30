@@ -130,18 +130,12 @@ drwxrwxrwx   1 user     group           0 Aug 30 06:06 ..
 -rwxrwxrwx   1 user     group       68096 Apr 14  2003 zip.exe
 ```
 
-find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上上级 ../.. 只能这样不然报错 
+
 
 ## 说明
 - 下面的一些Linux可能和上面的重复我懒得去重了
 - 写了自己的地址是我忘记哪里弄来的了
 
-### 读取
-- Word  查看 和 Excel 2003以下版本查看，高版本不支持。 读取 https://github.com/CreatNULL/backup/releases/download/1.0/WORD.EXCEL.rar
-- Excel 查看 https://github.com/CreatNULL/backup/releases/download/1.0/BytescoutXLSViewer.zip
-- Excel 查看（适合数据量很少） https://github.com/CreatNULL/backup/releases/download/1.0/Excel.7.1.exe
-- Excel 查看 3.44MB安装包，需要安装 https://github.com/CreatNULL/backup/releases/download/1.0/freeexcelviewer.exe
-- PPT 查看 https://github.com/CreatNULL/backup/releases/download/1.0/SmartPPT.-1.11.0.7-.rar
 
 ### 扫描
 - arp 扫描 https://github.com/QbsuranAlang/arp-scan-windows-
@@ -149,7 +143,9 @@ find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上�
 
 ### 编码解码
 - base64
+  - https://sourceforge.net/projects/unxutils/
 - md5sum
+  - https://sourceforge.net/projects/unxutils/ 
 - sha1sum
   - https://github.com/CreatNULL/backup/releases/download/1.0/sha1sum.exe
 - sha3sum
@@ -157,8 +153,11 @@ find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上�
 - sha256sum
   - https://github.com/cwansart/sha256sum.exe/
 - xxd
-  - 
+  - https://github.com/ckormanyos/xxd
   - 给定的标准输入或者文件做一次十六进制的输出，它也可以将十六进制输出转换为原来的二进制格式
+- od
+  - https://sourceforge.net/projects/unxutils/
+  - 读取所给予的文件的内容，并将其内容以八进制字码呈现出来。
 - hexed
   - https://github.com/samizzo/hexed
   - 十六进制查看、编辑
@@ -167,18 +166,32 @@ find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上�
   - 十六进制查看
 
 ### 压缩解压缩
-- bzip2 http://www.stahlworks.com/dev/index.php?tool=zipunzip 
-- 7z https://github.com/CreatNULL/backup/releases/download/1.0/7z.zip
-- gzip https://github.com/CreatNULL/backup/releases/download/1.0/gzip.exe
-- tar https://sourceforge.net/projects/tar-win/ https://sourceforge.net/projects/unxutils/files/
-- unrar https://github.com/CreatNULL/backup/releases/download/1.0/unrar.exe
-- unzip https://gnuwin32.sourceforge.net/packages/unzip.htm
-- xz https://github.com/CreatNULL/backup/releases/download/1.0/xz.exe  
-- zip https://github.com/CreatNULL/backup/releases/download/1.0/zip.exe
+- bzip2
+  - http://www.stahlworks.com/dev/index.php?tool=zipunzip 
+- 7z
+  - https://7-zip.org/download.html
+- gzip
+  - https://gnuwin32.sourceforge.net/packages/gzip.htm
+- tar
+  - https://sourceforge.net/projects/unxutils/files/
+- unrar
+  - https://gnuwin32.sourceforge.net/packages/unrar.htm
+- unzip
+  - https://gnuwin32.sourceforge.net/packages/unzip.htm
+- zipinfo
+  - 下个 git 里面有，不过依赖他的dll
+- xz
+  - https://sourceforge.net/projects/xz-for-windows/ 
+- zip
+  - https://gnuwin32.sourceforge.net/packages/zip.htm 
+- rar
+  - 下个WinRAR有了
 
 ### 文件目录操作
 - chmod
+  - https://sourceforge.net/projects/unxutils/
 - cp
+  - https://sourceforge.net/projects/unxutils/ 
 - exiftool
   - https://www.exiftool.org/
   - 允许您在图像、音频和视频文件中读取和写入EXIF、GPS、IPTC、XMP、制造者标记等元数据信息
@@ -186,23 +199,32 @@ find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上�
   - https://gnuwin32.sourceforge.net/packages/file.htm
   - 文件类型查看
 - awk
+  - https://sourceforge.net/projects/unxutils/
   - windows 支持有限
 - grep
+  - https://sourceforge.net/projects/unxutils/ 
 - ls
   - https://u-tools.com/download_prod.asp?download_id=600&Agree=1
 - mv
+  - https://sourceforge.net/projects/unxutils/
 - rm
-- rsync
-- sed 
+  - https://sourceforge.net/projects/unxutils/
+- sed
+  - Windows支持有限，没用成功我
+  - https://sourceforge.net/projects/unxutils/
 - touch
+  - https://sourceforge.net/projects/unxutils/
 - aha
-  -  https://github.com/CreatNULL/backup/releases/download/1.0/aha.exe
-  -  可将终端转义成 HTML 代码 （好像没用）
+  - https://github.com/CreatNULL/backup/releases/download/1.0/aha.exe
+  - 可将终端转义成 HTML 代码 （好像没用）
 - cat
   - https://github.com/TwiN/cat-for-windows
-- less 
-- tail 
-- tee 
+- less
+  - https://sourceforge.net/projects/unxutils/
+- tail
+  - https://sourceforge.net/projects/unxutils/
+- tee
+  - https://sourceforge.net/projects/unxutils/
 - nano
   - https://github.com/okibcn/nano-for-windows/
   - 文本编辑器 
@@ -213,11 +235,17 @@ find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上�
   - 下个 git，在里提取就好了（缺啥dll复制啥dll就可以独立使用了）
   - Linux系统中用于显示文件或文件系统状态的工具。它提供了比ls命令更详细的信息，包括文件大小、iNode节点、块数量、访问权限、访问时间、修改时间等
 - tr
-- 
+  - https://sourceforge.net/projects/unxutils/
+- find
+  - https://sourceforge.net/projects/unxutils/
+  - find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上上级 ../.. 只能这样不然报错 
   
 ### 磁盘
 - df
+  - https://sourceforge.net/projects/unxutils/
 - du
+  - https://sourceforge.net/projects/unxutils/
+
 
 ### 连接
 - mysql 命令行连接
@@ -229,7 +257,8 @@ find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上�
   - 数据库连接工具（MySQL、SQLserver、PosterSQL、Firebird 等 GUI的，比较轻量
 - wesocket
   - https://github.com/vi/websocat
-
+- ssh
+  - Windows可选功能里下载就好了
 - sshpass
   - sshpass java版本
     - https://github.com/luckyxp/sshpass
@@ -245,32 +274,54 @@ find 命令使用的时候查找的路径不能以 / 结尾 上一级 .. 上上�
       - sshpass -p 12345 rsync -avz -e 'c:/Users/xhcoding/scoop/apps/cwrsync/current/bin/ssh.exe' README.md xhcoding@192.168.139.128:/home/xhcoding/
 
 ### 网络
-- 抓包 https://github.com/CreatNULL/backup/releases/download/1.0/tcpdump.exe
-- 网络测速度 https://github.com/CreatNULL/backup/releases/download/1.0/speedtest.exe
-- 通过web共享本地终端 https://github.com/CreatNULL/backup/releases/download/1.0/ttyd.exe，原项目地址：https://github.com/tsl0922/ttyd
-- 下载 https://eternallybored.org/misc/wget/
-- IP地址修改器，https://github.com/CreatNULL/backup/releases/download/1.0/IP.Address.ModifierV5.0.5.8.exe，来源:https://www.ahhhhfs.com/47888/
-- 防火墙修改器，https://github.com/CreatNULL/backup/releases/download/1.0/Fab_x64_windows.exe，来源：https://www.52pojie.cn/thread-1757548-1-1.html
+- tcpdump
+  - https://github.com/the-tcpdump-group/tcpdump 需要自己编译 -> https://gitcode.com/open-source-toolkit/35137 这个有个编译好的，安全性不保证
+  - 抓包
+- speedtest
+  - https://install.speedtest.net/app/cli/ookla-speedtest-1.1.1-win64.zip 
+  - 网络测速度
+- ttyd
+  - https://github.com/tsl0922/ttyd
+  - 通过web共享本地终端
+- wget
+  - https://eternallybored.org/misc/wget/
+  - 下载工具
+- curl
+  - https://curl.se/windows/ 
+  - windows自带我记得
+- rsync
+  - https://sourceforge.net/projects/unxutils/
+- IP.Address.Modifier (GUI)
+  - https://www.ahhhhfs.com/47888/
+  - Windows IP地址修改器
+- Fab (GUI)
+  - https://www.52pojie.cn/thread-1757548-1-1.html
+  - Windows 防火墙快速配置
 
 
 ### 开发
-- JavaEnvSwitcher
+- JavaEnvSwitcher (GUI)
   - https://bbs.huaweicloud.com/blogs/392288 
   - java 环境管理切换工具
-- Locate.the.window.PID.with.the.mouse
+- Locate.the.window.PID.with.the.mouse (GUI)
   - 通过鼠标定位查看窗口PID
   - https://blog.csdn.net/weixin_46625757/article/details/122522741
-- 3CDaemon
+- 3CDaemon (GUI)
   - https://www.updatestar.com/directdownload/3cdaemon/2005987
   - 一个简易的FTP服务器、Syslog服务器搭建，300kb
-- SwitchHosts
+- SwitchHosts (GUI)
   - https://github.com/oldj/SwitchHosts
   - host修改，管理员身份运行
-- RapidEE
+- RapidEE (GUI)
   - https://www.rapidee.com/en/download
   - 是一个简易的环境变量编辑器，可以查看注册表值是否有效的，例如路径不存在，他就标红的
 
 ### 其他
-- ContextMenuManager
+- ContextMenuManager (GUI)
   - https://github.com/BluePointLilac/ContextMenuManager
-  - 右键菜单管理 
+  - 右键菜单管理
+- Word  查看 和 Excel 2003以下版本查看，高版本不支持。 读取 https://github.com/CreatNULL/backup/releases/download/1.0/WORD.EXCEL.rar
+- Excel 查看 https://github.com/CreatNULL/backup/releases/download/1.0/BytescoutXLSViewer.zip
+- Excel 查看（适合数据量很少） https://github.com/CreatNULL/backup/releases/download/1.0/Excel.7.1.exe
+- Excel 查看 3.44MB安装包，需要安装 https://github.com/CreatNULL/backup/releases/download/1.0/freeexcelviewer.exe
+- PPT 查看 https://github.com/CreatNULL/backup/releases/download/1.0/SmartPPT.-1.11.0.7-.rar
